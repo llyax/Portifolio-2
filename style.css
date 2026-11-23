@@ -114,6 +114,21 @@ h2 {
     transform: rotate(0deg) scale(1.03);
 }
 
+.foto-crianca img {
+    width: 190px;
+    height: 220px;
+    object-fit: cover;
+    background-color: #ffffff;
+    padding: 10px 10px 30px 10px; 
+    border: 1px solid #e0d8eb;
+    box-shadow: 3px 5px 12px rgba(106, 76, 147, 0.18);
+    transform: rotate(-3deg);
+    transition: transform 0.3s ease;
+}
+
+.foto-crianca img:hover {
+    transform: rotate(0deg) scale(1.03);
+} 
 .Dados ul {
     list-style: none;
 }
